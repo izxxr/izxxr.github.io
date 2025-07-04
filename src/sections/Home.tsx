@@ -4,8 +4,8 @@ import { AnimatePresence, motion } from "framer-motion";
 import {
     GithubOutlined,
     LinkedinOutlined,
-    MediumOutlined,
     MailOutlined,
+    BookOutlined,
 } from "@ant-design/icons";
 import { DownIcon } from "../icons"
 import type { ComponentCommonProps } from "../types";
@@ -54,8 +54,8 @@ export default function Home(_: ComponentCommonProps) {
                 <Link color={"foreground"} href="https://linkedin.com/in/thisizahmad" target="_blank">
                     <LinkedinOutlined className="text-3xl transition-transform duration-300 ease-in-out hover:-translate-y-1" />
                 </Link>
-                <Link color={"foreground"} href="https://medium.com/@theizharahmad" target="_blank">
-                    <MediumOutlined className="text-3xl transition-transform duration-300 ease-in-out hover:-translate-y-1" />
+                <Link color={"foreground"} href="https://izxxr.github.io/blog" target="_blank">
+                    <BookOutlined className="text-3xl transition-transform duration-300 ease-in-out hover:-translate-y-1" />
                 </Link>
                 <Link color={"foreground"} href="mailto:thatizharahmad@gmail.com" target="_blank">
                     <MailOutlined className="text-3xl transition-transform duration-300 ease-in-out hover:-translate-y-1" />
