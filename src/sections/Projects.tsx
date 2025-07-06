@@ -10,6 +10,7 @@ import {
 } from "@heroui/react";
 import { CodeOutlined } from "@ant-design/icons";
 import bujet_logo from "../assets/bujet_logo.png";
+import makexam_logo from "../assets/makexam_logo.png";
 import type { ComponentCommonProps } from "../types"
 
 interface ProjectProps {
@@ -44,11 +45,14 @@ const PROJECTS: ProjectProps[] = [
         icon_url: bujet_logo
     },
     {
-        title: 'The Python Guide',
-        subtitle: 'Online learning resource for Python',
-        icon_url: 'https://github.com/thepyguide/thepyguide.github.io/blob/main/docs/_images/favicon.png?raw=true',
-        primary_url: 'https://github.com/thepyguide/thepyguide.github.io',
-        secondary_url: 'https://thepyguide.github.io',
+        title: 'MakeXam',
+        subtitle: 'Simple tool to quickly create exams.',
+        icon_url: makexam_logo,
+        primary_url: "https://makexam.netlify.app",
+        primary_url_text: "View Website",
+        secondary_url: "https://github.com/izxxr/makexam",
+        secondary_url_text: "View Source",
+        is_new: true,
     },
     {
         title: 'WEEBOT',
@@ -56,7 +60,7 @@ const PROJECTS: ProjectProps[] = [
         description: "WEEBOT was used by over 250 servers and 100k users on Discord.",
         icon_url: "https://i.ibb.co/njcq650/Logo-Makr-5-Gq-Ny-Z.png",
         primary_url: "https://top.gg/bot/793886243901014038",
-        primary_url_text: "View Homepage"
+        primary_url_text: "View Homepage",
     },
     {
         title: 'Oblate',
@@ -64,6 +68,13 @@ const PROJECTS: ProjectProps[] = [
         primary_url: 'https://github.com/izxxr/oblate',
         secondary_url: 'https://oblate.readthedocs.io/',
         secondary_url_text: 'View Documentation',
+    },
+    {
+        title: 'The Python Guide',
+        subtitle: 'Online learning resource for Python',
+        icon_url: 'https://github.com/thepyguide/thepyguide.github.io/blob/main/docs/_images/favicon.png?raw=true',
+        primary_url: 'https://github.com/thepyguide/thepyguide.github.io',
+        secondary_url: 'https://thepyguide.github.io',
     },
     {
         title: 'Search100',
